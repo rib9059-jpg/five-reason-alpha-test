@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img, video {
+    max-width: 100%; 
+}
+
+.container{
+    max-width: 816px;
+    margin: 0 auto;
+    
+   
+}
+
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    padding: 7px 0px;
+    border-bottom: solid 1px #DFDFDFFF ;
+}
+
+
+
+.logo{
+    width: 240px;
+    margin: 0 auto;
+    display: block;
+}
+
+.reasonWrapper{
+    padding: 30px 40px 48px;
+}
+
+.mainHeading{
+    margin-bottom: 12px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+.textRed{
+    color: #ff0000;}
+
+.reasonTxt.
+.topContent{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.topContent:not(:first-child){
+    margin-top: 8px;
+}
+
+.topDivider{
+    margin-top: 25px;
+    border-color: #EBEBEBFF;
+}
+
+
+.c_reason{
+    display: flex;
+    gap: 4%;
+    align-items: center;
+    margin-top: 32px;
+
+
+}
+
+.leftC{
+    flex: 1 1 0;
+}
+
+.leftC img,
+.rightC img,
+.leftC video{
+    border-radius: 8px;
+}
+
+.rightC{
+    flex: 1 1 0;
+}
+
+.reasonHeading{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 13px;
+
+}
+
+.prodcutinfo{
+    padding: 30px 40px 48px;
+}
+
+.productContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.productSaleTitle h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+    color: inherit;
+    text-align: center;
+}
+
+.productInfoWrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+
+.productInfoWrapper > div{
+    flex: 1 1 0;
+    max-width: 48%;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.swiper-button-next svg, .swiper-button-prev svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.swiper-button-next svg path,
+.swiper-button-prev svg path{
+    fill: #000 !important;
+}
+
+
+.swiper img{
+    display: block;
+}
+
+.mySwiper{
+    margin-top: 16px;
+}
+
+.mySwiper .swiper-slide{
+    border: 2px solid transparent;
+}
+
+
+.mySwiper .swiper-slide.swiper-slide-thumb-active{
+    border-color: #000;
+}
+
+.swiper_controller{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.swiper_controller > div{
+    position: static !important;
+    margin: 0 !important;
+    
+}
+
+.swiper-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet-active{
+background: #000 !important;
+}
+
+.pdpHeading{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase   ;
+    color: #282828;
+}
+
+.star{
+    display: flex;
+    gap: 3px;
+}
+
+.star svg{
+    width: 16px !important;
+
+}
+
+.star_wrap{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding-bottom: 12px;
+    border-bottom: solid 1px #DFDFDFFF ;
+}
+
+.star_wrap span{
+    color: #282828FF;
+    font-size: 16px;
+    line-height: 1em;
+    margin-top:2px ;
+    
+}
+
+.strdivider{
+    width: 2px;
+    height: 16px;
+    background-color: #0000004D;
+}
+
+.rvdividerimg{
+    max-width: 17px;
+}
+
+.ltd{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.line{
+    flex: 1;
+    height: 2px;
+    background-color:  #0000004D;
+
+}
+
+.ltdTxt{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.pinfobold{
+    font-weight: 700;
+}
+
+.bpromiseimg{
+    margin-top: 5px;
+}
+
+.button{
+        padding: 16px 32px;
+        background-color:#000000FF ;
+        text-align: center;
+        border-radius: 8px;
+        display: block;
+        color: #DFDFDFFF;
+        text-decoration: none;  
+        margin-top: 16px;
+    }
+
+    .buttontxt{
+        font-weight: 700;
+        line-height: 1.3em;
+
+    }
+
+    .mainbottom{
+        padding: 25px 40px;
+        background-color:#000000FF;
+    }
+
+    .bottominfo{
+        display: flex;   
+        text-align: center;  
+        justify-content: center;   
+        color: #fff;
+        gap: 40px;
+    }
+
+    .bottomtext{
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+
+    
+
+
+@media (min-width:1023px) {
+   .rvdividerimg{
+    display: none;
+   }
+}
+
+@media (max-width:767px) {
+    .reasonWrapper{
+    padding: 30px 24px 10px;
+    }
+    .mainHeading{
+        font-size: 24px;
+        line-height: 1.3em;
+    }
+
+    .pinfotext,
+    .star_wrap span,
+    .reasonTxt,
+    .topContent{
+    font-size: 15px;
+    line-height: 1.7;
+    }
+    .c_reason{
+        flex-direction: column;
+        gap: 13px;
+        
+    }
+    .pdpHeading,
+    .productSaleTitle h2,
+    .reasonHeading{
+        font-size: 26px;
+    }
+    .desktopHeading{
+        display: none;
+    }
+    .c_reason2{
+        flex-direction: column-reverse;
+    }
+
+    .prodcutinfo{
+    padding: 30px 24px 48px;
+    }
+
+    .productInfoWrapper{
+        flex-direction: column;
+        margin-top: 16px;
+        gap: 24px;
+    }
+    .productInfoWrapper > div {
+    max-width: 100%;
+}
+    .mySwiper{
+        display: none !important;
+    }
+
+    .swiper_controller{
+        display: flex;
+    }
+
+    .bottominfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 15px 40px;
+    }
+
+    .bottomtext:nth-child(1){
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .bottomtext:nth-child(2){
+        grid-column: 1;
+        grid-row: 2;
+
+    }
+    .bottomtext:nth-child(3){
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .bottomtext:nth-child(4){
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .bottomtext:nth-child(5){
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+
+}
+
+
+@media (min-width: 767px) {
+    .mobileHeading{
+        display: none;
+    }
+    
+}
